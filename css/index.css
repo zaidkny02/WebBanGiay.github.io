@@ -1,0 +1,245 @@
+﻿header {
+    
+    height:100px;
+    display: grid;
+    /*grid-template-columns: 1fr 2fr 5fr;*/ 
+    grid-template-columns: 1fr 9fr;
+}
+   
+    #logo img {
+        height:100px;
+        display:inline-block;
+    }
+    
+    #right-header {
+        text-align:right;
+        margin-right:10px;
+    }
+    #right-header a{
+        text-decoration:none;
+        margin-right:20px;
+        color: #206fdc;
+    }
+        #right-header a:link {
+            
+        }
+        #right-header #giohang {
+            margin-right:0px;
+        }
+        #right-header #slcart {
+            width: 20px;
+            
+            margin-right: 0px;
+        }
+nav ul {
+    background-color:#d0b9b9;
+    height:30px;
+    margin-top:0px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+    nav ul li{
+        display: inline;
+        margin-right:30px;
+        
+        padding:10px;
+        
+    }
+    nav ul a{
+        text-decoration:none;
+        transition: 300ms linear;
+    }
+nav {
+    text-align:center;
+}
+    nav ul li a:hover {
+        color:#ff6a00;
+        text-decoration:underline;
+        
+        
+        
+    }
+
+#content {
+    
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    
+}
+#search_field {
+    display:inline-block;
+    float:left;
+}
+#search_field p {
+    
+    display:inline;
+}
+.searchbox {
+    width:50px;
+}
+    #left-content {
+        
+    }
+    #mid-content h2 {
+        margin-left: 25px;
+    }
+    #lstprod {
+        display:inline-block;
+        text-align:center;  
+        clear:both;
+            
+    }
+
+        .product {
+            
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            max-width: 22%;
+            display:inline-block;          
+            margin: 1%;
+            margin-bottom: 30px;
+        }
+        
+        .imgbox button {
+            background-color: white;
+            padding:0  ;
+            
+
+        }
+        .product img {
+            
+            width: 85%;
+            height: 300px;
+        
+         }
+        .nameprod {
+    
+            font-size: 2vw;
+            text-align:center;
+         }
+    #right-content {
+        text-align:center;  
+    }
+    #right-content .product{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            max-width: 85%;
+            display:inline-block;          
+            margin: 1%;
+            margin-bottom: 30px;
+    }
+footer {
+    background-color:#ddea9c;
+    display:inline-block;
+    width:100%;
+    margin-top:20px;
+}
+    footer div {
+        width: 35%;
+        
+        float: left;
+        
+    }
+    
+    
+body {
+}
+@media only screen and (max-width: 768px) {
+
+    h2 {
+        font-size:20px;
+    }
+    #mid-content {
+        text-align:center;
+    }
+    #mid-content h2 {
+    margin-left: 0px;
+}
+    #content {
+    display: grid;
+    grid-template-columns: 1fr 5fr 3fr;
+    
+}
+    #right-content .product{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            max-width: 70%;
+            display:inline-block;          
+            margin: 1%;
+            margin-bottom: 30px;
+    }
+
+    .product img {
+            
+            width: 85%;
+            height: 200px;
+        
+         }
+    .product {
+            
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            max-width: 45%;
+            display:inline-block;          
+            margin: 1%;
+            margin-bottom: 20px;
+        }
+
+}
+@media only screen and (max-width: 666px) {
+    
+    header {
+    background-color:#ddea9c;
+    display: grid;
+    grid-template-columns: 3fr  5fr;
+}
+     #logo img {
+        width:100%;
+        display:inline-block;
+    }
+    #right-header a{
+        display:inline-block;
+        width:80%;
+        margin-right:0px;
+    }
+    #right-header #slcart {
+        width:auto;
+    }
+    footer div {
+        width:50%;
+        float:left;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    
+    
+    h2 {
+        font-size:initial;
+    }
+    nav  {
+    
+   
+    text-align:center;
+    margin-right:0px;
+    margin-bottom:5px;
+}
+        nav ul {
+            padding-inline-start: 0px;
+            padding-top:0px;
+            padding-bottom:0px;
+            height:auto;
+        }
+        nav ul li{
+        background-color:#d0b9b9;
+        width: 100%;  
+        display: inline-block;	
+        padding-inline-start: 0px;
+        margin-top:5px;
+        margin-bottom:0px;
+        padding-left:0px;
+        padding-right:0px;
+        border-bottom:1px solid black;
+        }
+            nav ul li:first-child {
+                border-top:1px solid black;
+                margin-top:0px;
+            }
+
+}
